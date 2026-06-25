@@ -1,0 +1,9 @@
+/*
+ *  Sends the test parameter structure and number of tests
+ */
+void
+MATHLIB_recip_getTestParams (MATHLIB_recip_testParams_t ** params, int32_t * numTests)
+{
+   *params = testParams;
+   *numTests = sizeof (testParams) / sizeof (MATHLIB_recip_testParams_t);
+}
