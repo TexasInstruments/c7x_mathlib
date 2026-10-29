@@ -6,7 +6,7 @@ MATHLIB — C7x Math Library
 MATHLIB is TI's optimized mathematical functions library for the **C7™** DSP architecture.
 It provides a suite of scalar and vector transcendental math kernels targeting the C7™
 vector and streaming engines (SE/SA), enabling high-throughput computation of trigonometric,
-hyperbolic, exponential, logarithmic, and arithmetic functions on TI SoCs such as AM62D and AM275.
+hyperbolic, exponential, logarithmic, and arithmetic functions on TI SoCs such as AM62D, AM275 and AM283.
 
 Each kernel is implemented as a C++ template function supporting ``float`` and ``double``
 precision, with C interfaces ``_sp`` (single precision) and ``_dp`` (double precision).
@@ -31,7 +31,7 @@ precision, with C interfaces ``_sp`` (single precision) and ``_dp`` (double prec
       :link: perf/index
       :link-type: doc
 
-      Measured kernel cycle counts on C7504 (AM62D) and C7524 (AM275).
+      Measured kernel cycle counts on C7504 (AM62D) and C7524 (AM275/AM283).
 
    .. grid-item-card:: :si-icon:`material/file-tree` Repository Layout
       :link: repository_layout

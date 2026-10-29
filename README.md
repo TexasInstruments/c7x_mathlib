@@ -16,7 +16,7 @@
 MATHLIB is TI's optimized mathematical functions library for the **C7<sup>™</sup>** DSP architecture.
 It provides a suite of scalar and vector transcendental math kernels targeting the C7<sup>™</sup>
 vector and streaming engines (SE/SA), enabling high-throughput computation of trigonometric,
-hyperbolic, exponential, logarithmic, and arithmetic functions on TI SoCs such as AM62D and AM275.
+hyperbolic, exponential, logarithmic, and arithmetic functions on TI SoCs such as AM62D, AM275 and AM283.
 
 Each kernel is implemented as a C++ template function supporting `float` and `double` precision,
 with C interfaces `_sp` (single precision) and `_dp` (double precision).
@@ -82,6 +82,7 @@ Some kernels include a Python reference implementation under `test/MATHLIB_testP
 |--------|----------|
 | AM62D | C7504 |
 | AM275 | C7524 |
+| AM283 | C7524 |
 
 
 ## Setup Instructions
@@ -113,10 +114,14 @@ MATHLIB uses **CMake presets** to manage build configurations.
 | `release-autotest-am62d-target` | AM62D | On-device + tests |
 | `release-autotest-am275-pc` | AM275 | PC simulation + tests |
 | `release-autotest-am275-target` | AM275 | On-device + tests |
+| `release-autotest-am283-pc` | AM283 | PC simulation + tests |
+| `release-autotest-am283-target` | AM283 | On-device + tests |
 | `release-buildlib-am62d-pc` | AM62D | PC (library only) |
 | `release-buildlib-am62d-target` | AM62D | On-device (library only) |
 | `release-buildlib-am275-pc` | AM275 | PC (library only) |
 | `release-buildlib-am275-target` | AM275 | On-device (library only) |
+| `release-buildlib-am283-pc` | AM283 | PC (library only) |
+| `release-buildlib-am283-target` | AM283 | On-device (library only) |
 
 ### Quick Start — PC simulation (AM62D)
 
