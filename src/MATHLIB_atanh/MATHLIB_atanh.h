@@ -42,10 +42,9 @@ extern "C" {
 #endif
 
 /**
- * @brief This function is the C interface for @ref MATHLIB_log10.
+ * @brief This function is the C interface for @ref MATHLIB_atanh.
  *        Function accepts float pointers.
  *
- * @tparam      T      : implementation datatype
  * @param [in]  length : length of input vector
  * @param [in]  pSrc   : pointer to buffer holding input vector
  * @param [out] pDst   : pointer to buffer holding result vector
@@ -63,4 +62,4 @@ MATHLIB_atanh_sp(size_t length, float* pSrc, float* pDst);
 }
 
 #endif
-#endif // MATHLIB_LOG10_H_
+#endif // MATHLIB_ATANH_H_

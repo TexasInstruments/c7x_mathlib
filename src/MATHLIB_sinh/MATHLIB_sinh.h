@@ -45,7 +45,6 @@ extern "C" {
  * @brief This function is the C interface for @ref MATHLIB_sinh.
  *        Function accepts float pointers.
  *
- * @tparam      T      : implementation datatype
  * @param [in]  length : length of input vector
  * @param [in]  pSrc  : pointer to buffer holding input vector
  * @param [out] pDst   : pointer to buffer holding result vector

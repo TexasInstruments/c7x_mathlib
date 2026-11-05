@@ -46,7 +46,6 @@ extern "C" {
  * @brief This function is the C interface for @ref MATHLIB_atan2.
  *        Function accepts float pointers.
  *
- * @tparam      T      : implementation datatype
  * @param [in]  length : length of input vector
  * @param [in]  pSrc0  : pointer to buffer holding input vector
  * @param  [in]  pSrc1  : pointer to buffer holding input vector
@@ -64,7 +63,6 @@ MATHLIB_atan2_sp(size_t length, float* pSrc0, float* pSrc1, float* pDst);
  * @brief This function is the C interface for @ref MATHLIB_atan2.
  *        Function accepts double pointers.
  *
- * @tparam      T      : implementation datatype
  * @param [in]  length : length of input vector
  * @param [in]  pSrc0  : pointer to buffer holding input vector
  * @param  [in]  pSrc1  : pointer to buffer holding input vector

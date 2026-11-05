@@ -46,7 +46,6 @@ extern "C" {
  * @brief This function is the C interface for @ref MATHLIB_sin.
  *        Function accepts float pointers.
  *
- * @tparam      T      : implementation datatype
  * @param [in]  length : length of input vector
  * @param [in]  pSrc   : pointer to buffer holding input vector
  * @param [out] pDst   : pointer to buffer holding result vector
@@ -63,7 +62,6 @@ MATHLIB_sin_sp(size_t length, float* pSrc, float* pDst);
  * @brief This function is the C interface for @ref MATHLIB_sin.
  *        Function accepts double pointers.
  *
- * @tparam      T      : implementation datatype
  * @param [in]  length : length of input vector
  * @param [in]  pSrc   : pointer to buffer holding input vector
  * @param [out] pDst   : pointer to buffer holding result vector

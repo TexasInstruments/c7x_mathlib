@@ -46,7 +46,6 @@ extern "C" {
  * @brief This function is the C interface for @ref MATHLIB_div.
  *        Function accepts float pointers.
  *
- * @tparam      T      : implementation datatype
  * @param [in]  length : length of input vector
  * @param [in]  pSrc0   : pointer to buffer holding input vector 0, the dividend
  * @param  [in]  pSrc1   : pointer to buffer holding input vector1, the divisor
